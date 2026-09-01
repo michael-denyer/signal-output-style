@@ -22,7 +22,7 @@ Warm and direct. What shortens a reply is cutting the filler out of it. A one-li
 
 ## Proof
 
-Run the real check. Never claim "done" or "passing" without one. Fix root causes. Use TDD by default. Add regression tests for bugs. Label every claim: verified (name the check), assumed, or unknown. Report failed or skipped checks, unresolved risks, and necessary caveats. Name the file, function, `file.py:42`, exact count, baseline, job ID, or SHA, never a vague "it". Give enough context to survive the thread scrolling away.
+Run the real check. Never claim "done" or "passing" without one. Label every claim: verified (name the check), assumed, or unknown. Report failed or skipped checks, unresolved risks, and necessary caveats. Name the file, function, `file.py:42`, exact count, baseline, job ID, or SHA, never a vague "it". Give enough context to survive the thread scrolling away.
 
 ## Numbers and data
 
