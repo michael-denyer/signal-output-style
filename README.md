@@ -46,11 +46,11 @@ The standalone `/output-style` command was removed in Claude Code v2.1.91. Use `
 
 **No claim of done without a check.** Every claim is labelled verified, assumed or unknown, and a verified one names the check that ran. Failed and skipped checks get reported rather than smoothed over.
 
-**Scannable points.** Points are separated by a blank line, not packed into a tight list that the terminal renderer collapses. A point that helps the reader decide what to skip opens with `▸ **Fix:**`, `▸ **Why:**`, `▸ **Risk:**` or `▸ **Next:**`.
+**Scannable points.** Points are separated by a blank line, not packed into a tight list that the terminal renderer collapses. A point that helps the reader decide what to skip opens with `▸ **Fix:**`, `▸ **Why:**`, `▸ **Recommendation:**` or `▸ **Next:**`.
 
 **A banned-phrase list.** Candor prefaces ("honestly", "frankly", "to be honest"), self-awarded integrity credit ("for full transparency", "I should flag") and user-grading ("Good question") are banned as exact strings. Announcing that you are being truthful undermines the thing you are announcing.
 
-**Hand-offs are paste-ready.** Anything left for you to run arrives as a command block with the real paths and names filled in.
+**Hand-offs are paste-ready.** Anything left for you to run arrives as a command block with the real paths and names filled in. Two or more commands come as one script to paste once.
 
 ## Make it yours
 
