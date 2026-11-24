@@ -48,15 +48,15 @@ The standalone `/output-style` command was removed in Claude Code v2.1.91. Use `
 
 **Scannable points.** Points are separated by a blank line, not packed into a tight list that the terminal renderer collapses. A point that helps the reader decide what to skip opens with `▸ **Fix:**`, `▸ **Why:**`, `▸ **Recommendation:**` or `▸ **Next:**`.
 
-**A banned-phrase list.** Candor prefaces ("honestly", "frankly", "to be honest"), self-awarded integrity credit ("for full transparency", "I should flag") and user-grading ("Good question") are banned as exact strings. Announcing that you are being truthful undermines the thing you are announcing.
+**No performance.** Three kinds of phrasing are out, each shown by example rather than an exhaustive list: candor markers ("honestly", "to be clear"), integrity labels on Claude's own work ("rigorous", "I won't fabricate") and praise of your observation ("good catch"). Announcing that you are being truthful undermines the thing you are announcing.
 
-**Hand-offs are paste-ready.** Anything left for you to run arrives as a command block with the real paths and names filled in. Two or more commands come as one script to paste once.
+**Hand-offs are paste-ready.** Anything left for you to run arrives as a command block with the real paths and names filled in. Two or more commands come as one script to paste once, without `set -e`, so a failure leaves your terminal open with its output.
 
 ## Make it yours
 
 The file is one page of Markdown with no build step. Edit `signal.md` and reload the session.
 
-The parts most worth tuning for your own work are the banned-phrase list in `## Cut`, which is personal, and the `▸` tag set in `## Format`. Keep the guard that comes with the tags: a tag on every point marks nothing, so tag only where the reader is choosing what to skip.
+The parts most worth tuning for your own work are the examples of performance in `## Cut`, which are personal, and the `▸` tag set in `## Format`. Keep the guard that comes with the tags: a tag on every point marks nothing, so tag only where the reader is choosing what to skip.
 
 ## Licence
 
